@@ -1,3 +1,15 @@
+#navbar{
+  padding-top: 25px;
+  background-color:#555;
+  color:#fff;
+  height:5em;
+}
+#nav{
+  text-align: right;
+}
+#main-img{
+  padding-top: 100px;
+}
 #main{
   text-align: center;
 }
