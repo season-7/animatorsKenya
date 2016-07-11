@@ -8,8 +8,10 @@
   text-align: right;
 }
 #main-img{
-  padding-top: 100px;
+  height:100px;
+  position: absolute;
 }
-#main{
+#main-content{
   text-align: center;
+  position: relative;
 }

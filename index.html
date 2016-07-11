@@ -10,26 +10,49 @@
   <!--Links to style sheets -->
   <link rel="stylesheet" href="css/app.css" type="text/css">
   <link rel="stylesheet" href="css/foundation.min.css">
+  <link rel="stylesheet" href="css/animate.css">
   <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
 
 </head>
+<style>
+  @keyframes fadeOutLeftBig {
+    from {
+      opacity: 1;
+    }
+
+    to {
+      opacity: 0;
+      transform: translate3d(-2000px, 0, 0);
+    }
+  }
+
+  .fadeOutLeftBig {
+    animation-name: fadeOutLeftBig;
+  }
+</style>
 <body>
 <div class="wrapper">
 <header>
   <div class="expanded row" id="navbar">
-    <div class= "small-2 columns"><i class="ion-ios-home"=></i></div>
-    <div class= "small-6 columns"></div>
-    <div class= "small-4 columns" id="nav"><span>Home &nbsp; About</span></div>
+      <div class= "small-2 columns"><i class="ion-ios-home"=></i></div>
+      <div class= "small-6 columns"></div>
+      <div class= "small-4 columns" id="nav"><span>Home &nbsp; About</span></div>
   </div>
-  <div class="expanded row" id="main-img">
-    <div class="small-12 columns" id="main">
+</div>
+  <div class="expanded row">
+    <div id="main-img">
+      <div class="fadeOutLeftBig">
+        <img src="./img/photo 1.jpg" style="width:100%;">
+      </div>
+    </div>
+    <div id="main-content">
       <div><h1> AnimatorsKE</h1></div>
       <button>Click Me</button>
     </div>
   </div>
+
 </header>
 <section>
-
 </section>
 <section>
 
