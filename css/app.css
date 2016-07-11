@@ -1,5 +1,19 @@
-#main{
+#navbar{
+  padding-top: 25px;
+  background-color:#555;
+  color:#fff;
+  height:5em;
+}
+#nav{
+  text-align: right;
+}
+#main-img{
+  height:100px;
+  position: absolute;
+}
+#main-content{
   text-align: center;
+  position: relative;
 }
 .back {
     background-image: url(../img/old_rifle-wallpaper-1920x1200.jpg);
