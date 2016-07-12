@@ -1,22 +1,26 @@
 #navbar{
-  padding-top: 25px;
+  padding-top: 1em;
   background-color:#555;
   color:#fff;
   height:5em;
 }
-#nav{
+#menu-icon{
+  font-size: 24px;
+}
+#menu-text{
   text-align: right;
+  font-size: 20px;
 }
-#main-img{
-  height:100px;
-  position: absolute;
+.hero{
+  background: url('../img/photo1.png');
+  background-size: cover;
+  height:30em;
+  display: flex;
+  align-items: center;text-align: center;vertical-align: center;
 }
-#main-content{
-  text-align: center;
-  position: relative;
+.hero #content{
+  color: #fff;
 }
-.back {
-    background-image: url(../img/old_rifle-wallpaper-1920x1200.jpg);
-    width: 50%;
-    height: 50%;
+@media only screen and (max-width: 500px) {
+  .hero{height:15em;}
 }
